@@ -7,7 +7,7 @@ def reformat_languages(languages)
         new_hash[name][:style] << style
       else new_hash[name] ||= attributes
         new_hash[name][:style] = []
-        new_hash[javascript][:style] << [:oo][:functional]
+        new_hash[:javascript][:style] << [:oo][:functional]
     end
   end
 end
